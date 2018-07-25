@@ -1,7 +1,7 @@
-# Novelist
+﻿# Novelist
 ## A very simple precedual visual novel engine 
 
-See the demo [bizarre novel test](https://github.com/HermesPasser/unity-scripts/archive/1.zip)
+See the demo (bizarre novel test)[https://github.com/HermesPasser/unity-scripts/releases/download/1/unity-scripts.zip]
 
 ### About choice system
 
