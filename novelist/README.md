@@ -1,5 +1,5 @@
 ﻿# Novelist
-## A very simple precedual visual novel engine 
+A very simple precedual visual novel engine  
 
 See the demo (bizarre novel test)[https://github.com/HermesPasser/unity-scripts/releases/download/1/unity-scripts.zip]
 
