@@ -10,9 +10,8 @@ namespace HermesUtilities{
 		public float time = 0;
 		private bool status;
 		public bool isFlashing;
-		public bool isDisable;
+		public bool isDisabled;
 		public Light objLight;
-
 
 		void Start () {
 			if (velocity < 0) velocity = 0;
@@ -20,7 +19,7 @@ namespace HermesUtilities{
 		}
 
 		void Update () {
-			if (isDisable) {
+			if (isDisabled) {
 				changeStatus (false);
 				return;
 			}
@@ -34,7 +33,8 @@ namespace HermesUtilities{
 		}
 
 		private void changeStatus (bool status){
-			objLight.enabled = status;
+			if (objLight != null)
+				objLight.enabled = status;
 		}
 
 		private void flashing () {
